@@ -12,7 +12,7 @@ def create
   if @review.save
     render json: @review, status: :created, location: @review
   else
-    render json: @comment.errors, status: :unprocessable_entity
+    render json: @review.errors, status: :unprocessable_entity
   end
 end
 

@@ -10,7 +10,7 @@ class MoviesController < ApplicationController
     if @movie.save
       render json: @movie, status: :created, location: @movie
     else
-      render json: @post.errors, status: :unprocessable_entity
+      render json: @movie.errors, status: :unprocessable_entity
     end
   end
 
