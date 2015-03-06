@@ -14,6 +14,25 @@ class MoviesController < ApplicationController
     end
   end
 
+  def show
+    @movie = Movie.find(params[:id])
+    render json: @movie, status: 200
+  end
+
+  def update
+    @movie = Movie.find(params[:id])
+    if @movie.update(movie_params)
+      render json: @movie, status: :ok
+    else
+      render json: @movie.errors, status: :unprocessable_entity
+    end
+  end
+
+  def destroy
+    @movie = Movie.find(params[:id])
+    @movie.destroy
+    head :no_content
+  end
 
   private
 
