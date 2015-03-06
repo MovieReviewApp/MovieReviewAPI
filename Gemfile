@@ -4,7 +4,7 @@ gem 'rails', '4.2.0'
 gem 'rails-api'
 gem 'spring', :group => :development
 gem 'sqlite3'
-gem 'newrelic_rpm'
+# gem 'newrelic_rpm'
 gem 'rack-cors'
 gem 'active_model_serializers', github: 'rails-api/active_model_serializers'
 gem 'nokogiri'
