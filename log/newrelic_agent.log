@@ -54,3 +54,21 @@
 [03/06/15 10:00:33 -0500 Annes-MacBook-Pro-2.local (4613)] INFO : Installing Rails 4 view instrumentation
 [03/06/15 10:00:33 -0500 Annes-MacBook-Pro-2.local (4613)] INFO : Installing Rails 4 Error instrumentation
 [03/06/15 10:00:33 -0500 Annes-MacBook-Pro-2.local (4613)] INFO : Finished instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Starting the New Relic agent in "test" environment.
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "test" section of your newrelic.yml.
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] WARN : No configuration file found. Working directory = /Users/jMarx/wdi/homework/MovieReview/MovieReviewAPI
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] WARN : Looked in these locations (based on defaults): /Users/jMarx/wdi/homework/MovieReview/MovieReviewAPI/config/newrelic.yml, /Users/jMarx/wdi/homework/MovieReview/MovieReviewAPI/newrelic.yml, /Users/jMarx/wdi/homework/MovieReview/MovieReviewAPI/config/newrelic.yml, /Users/jMarx/wdi/homework/MovieReview/MovieReviewAPI/newrelic.yml, /Users/jMarx/.newrelic/newrelic.yml, /Users/jMarx/newrelic.yml
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Environment: test
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : No known dispatcher detected.
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Application: test
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'test'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing ActiveJob instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing ActiveRecord 4 instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing Net instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing deferred Rack instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing Rack::Builder middleware instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing Rails 3+ middleware instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing Rails 4 Controller instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing Rails 4 view instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Installing Rails 4 Error instrumentation
+[03/06/15 10:49:08 -0500 Jennifers-MacBook-Pro.local (58042)] INFO : Finished instrumentation
