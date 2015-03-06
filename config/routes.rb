@@ -3,6 +3,8 @@ Rails.application.routes.draw do
     resources :reviews, only: [:create]
   end
 
+  resources :movies, only: [:index]
+
   namespace :admin do
     # Directs /admin/products/* to Admin::ProductsController
     # (app/controllers/admin/products_controller.rb)
