@@ -17,7 +17,7 @@ describe 'Movie Requests' do
 
   describe '#create' do
     it 'should create a new movie and return it' do
-      movie 'admin/movies',
+      post '/admin/movies',
       { movie: {
           title: "Ultricies Vulputate Risus",
           description: "Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.",
@@ -29,7 +29,6 @@ describe 'Movie Requests' do
 
       movie = JSON.parse(response.body)
       expect(movie['title']).to eq "Ultricies Vulputate Risus"
-      # p json
     end
   end
 
