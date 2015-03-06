@@ -72,3 +72,39 @@
 [03/06/15 10:08:37 -0500 Annes-MacBook-Pro-2.local (4863)] INFO : Installing Rails 4 view instrumentation
 [03/06/15 10:08:37 -0500 Annes-MacBook-Pro-2.local (4863)] INFO : Installing Rails 4 Error instrumentation
 [03/06/15 10:08:37 -0500 Annes-MacBook-Pro-2.local (4863)] INFO : Finished instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Starting the New Relic agent in "test" environment.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "test" section of your newrelic.yml.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] WARN : No configuration file found. Working directory = /Users/annieb/wdi/labs/projects/MovieReviewAPI
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] WARN : Looked in these locations (based on defaults): /Users/annieb/wdi/labs/projects/MovieReviewAPI/config/newrelic.yml, /Users/annieb/wdi/labs/projects/MovieReviewAPI/newrelic.yml, /Users/annieb/wdi/labs/projects/MovieReviewAPI/config/newrelic.yml, /Users/annieb/wdi/labs/projects/MovieReviewAPI/newrelic.yml, /Users/annieb/.newrelic/newrelic.yml, /Users/annieb/newrelic.yml
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Environment: test
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : No known dispatcher detected.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Application: test
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'test'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing ActiveJob instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing ActiveRecord 4 instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing Net instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing deferred Rack instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing Rack::Builder middleware instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing Rails 3+ middleware instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing Rails 4 Controller instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing Rails 4 view instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Installing Rails 4 Error instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8385)] INFO : Finished instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Starting the New Relic agent in "development" environment.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] WARN : No configuration file found. Working directory = /Users/annieb/wdi/labs/projects/MovieReviewAPI
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] WARN : Looked in these locations (based on defaults): /Users/annieb/wdi/labs/projects/MovieReviewAPI/config/newrelic.yml, /Users/annieb/wdi/labs/projects/MovieReviewAPI/newrelic.yml, /Users/annieb/wdi/labs/projects/MovieReviewAPI/config/newrelic.yml, /Users/annieb/wdi/labs/projects/MovieReviewAPI/newrelic.yml, /Users/annieb/.newrelic/newrelic.yml, /Users/annieb/newrelic.yml
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Environment: development
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : No known dispatcher detected.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Application: development
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing ActiveJob instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing ActiveRecord 4 instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing Net instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing deferred Rack instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing Rack::Builder middleware instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing Rails 3+ middleware instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing Rails 4 Controller instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing Rails 4 view instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Installing Rails 4 Error instrumentation
+[03/06/15 11:30:06 -0500 Annes-MacBook-Pro-2.local (8386)] INFO : Finished instrumentation
