@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
   resources :movies, only: [:show] do
-    resources :reviews, only: [:create]
+    resources :reviews, only: [:create, :index]
   end
 
   resources :movies, only: [:index]
 
-  namespace :admin do
+  scope '/admin' do
     # Directs /admin/products/* to Admin::ProductsController
     # (app/controllers/admin/products_controller.rb)
     resources :movies, only: [:create, :update, :destroy]

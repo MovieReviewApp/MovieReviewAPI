@@ -9,7 +9,7 @@ describe 'Reviews Requests' do
   end
 
   describe '#index' do
-    it 'gets all reviews for a post' do
+    it 'gets all reviews for a movies' do
       get "/movies/#{@movies.first.id}/reviews"
       expect(response).to be_success
     end
@@ -31,7 +31,7 @@ describe '#create' do
 
   describe '#update' do
     it 'should update the review and return the review in json' do
-      put "admin/reviews/#{@reviews.first.id}",
+      put "/admin/reviews/#{@reviews.first.id}",
       { review: {
           comment: "Something else"
         }
@@ -45,7 +45,7 @@ describe '#create' do
   describe '#destroy' do
     it 'kills the review found by id' do
       review = @reviews.first
-      delete "admin/reviews/#{review.id}"
+      delete "/admin/reviews/#{review.id}"
       expect(response.status). to eq 204
 
     end
