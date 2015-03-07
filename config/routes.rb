@@ -3,6 +3,9 @@ Rails.application.routes.draw do
     resources :reviews, only: [:create, :index]
   end
 
+  get 'movies/show_year/:id', to: 'movies#show_year'
+
+
   resources :movies, only: [:index]
 
   scope '/admin' do
