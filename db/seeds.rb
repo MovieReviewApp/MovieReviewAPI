@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
 Movie.delete_all
 
 Movie.create!( mpaa_rating: "R", release_date: "1994-09-14", title: "The Shawshank Redemption")
@@ -28,7 +21,6 @@ Movie.create!( mpaa_rating: "R", release_date: "2010-10-01", title: "Let Me In")
 Movie.create!( mpaa_rating: "R", release_date: "2010-01-14", title: "The Book of Eli")
 Movie.create!( mpaa_rating: "R", release_date: "2009-10-15", title: "Law Abiding Citizen")
 Movie.create!( release_date: "2004-05-13", title: "Troy", mpaa_rating: "R")
-Movie.create!( release_date: "2010-09-17", title: "Incendies", mpaa_rating: "R")
 Movie.create!( release_date: "1972-03-15", title: "The Godfather", mpaa_rating: "R")
 Movie.create!( release_date: "2010-12-02", title: "Black Swan", mpaa_rating: "R")
 Movie.create!( release_date: "2008-12-12", title: "Ip Man", mpaa_rating: "R")
