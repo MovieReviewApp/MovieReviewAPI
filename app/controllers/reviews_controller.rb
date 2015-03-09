@@ -1,5 +1,7 @@
 class ReviewsController < ApplicationController
 
+before_filter :authenticate, only: [:create, :update, :destroy]
+
 def index
   @movie = Movie.find(params[:movie_id])
   @reviews = @movie.reviews
@@ -8,24 +10,13 @@ def index
 end
 
 def create
-  # @movie = Movie.find(params[:movie_id])
   @review = Review.new(review_params)
-  # @movie.reviews << @review
   if @review.save
     render json: @review, status: :created, location: @review
   else
     render json: @review.errors, status: :unprocessable_entity
   end
 end
-
-# def update
-#   @review = Review.find(params[:id])
-#   if @review.update(review_params)
-#     render json: @review, status: :ok
-#   else
-#     render json: @review.errors, status: :unprocessable_entity
-#   end
-# end
 
 def update
   @review = Review.find(params[:id])
