@@ -4,36 +4,38 @@
 
 ## Objectives
 
-By the end of this, students should be able to:
+###Movies Stories
 
-- Objective 1
-- Objective 2
-- Objective 3
+####Users can:
 
-## Instructions
+ - View all movies - Completed
+ - View a specific movie - Completed
+ - Create a new movie with a title, total gross, release date, MPAA rating and description
+ - Update a movie
+ - Movies must have a title - Completed
+ - Movie titles must be unique - Completed
+ - A Movie rating must be a valid MPAA rating - Completed
+ - The release date may not be greater than the 5 years from the date the movie was created in this app - Not completed
+ - The total gross is 0 by default - Completed
 
-Include explict step-by-step instructions about the goals of the assignment, and how to run the code.
+###Movie Reviews
 
-Make sure to wrap section of code in appropriate markdown like `ls -al`, and denote the language as below for longer sections:
+ - Users can see all the reviews for a specific movie - Completed
+ - Users can create a new review - Completed
+ - Users can not update or delete reviews - Completed
 
-```ruby
-x = 2
-y = 3
-puts x + y
-```
+####Each review:
 
-## Bonus (Optional Section)
+ - Must have a comment - Completed
+ - May have a star rating between one and five - Completed
+ - May have the name of a reviewer - Completed
+ - There can only be one movie review for each named reviewer. If the reviewer filled in a name they cannot have  - more that one review per movie - Not completed
 
-If you're looking for extra challenge or practice once you've completed the above, try to...
+###Admin users
 
-## Notes
+Admin users must access movies and reviews via the 'admin' URI namespace. - Not completed
 
-Gotcha's and extra information
+For example, /admin/movies/5 or /admin/reviews/3
 
-## Additional Resources
+Only Admins are allowed to delete reviews. Only Admins are allowed to edit/update reviews.
 
-List additional related resources such as videos, blog posts and official documentation.
-
-- Item 1
-- Item 2
-- Item 3
