@@ -1,5 +1,7 @@
 class MoviesController < ApplicationController
 
+before_filter :authenticate, only: [:create, :update, :destroy]
+
   def index
     @movies = Movie.all
     render json: @movies, status: 200
